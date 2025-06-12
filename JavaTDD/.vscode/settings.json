@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "d:\\UnB\\Ciclo 9\\Testes\\TDD-reimplementacao\\TDD_Reimplementa-o_12-Jun\\JavaTDD\\lib\\junit-platform-console-standalone-1.9.3.jar"
+    ]
+}
