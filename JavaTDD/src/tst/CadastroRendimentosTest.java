@@ -1,7 +1,10 @@
+package tst;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import app.IRPF;
 
 public class CadastroRendimentosTest { 
 
@@ -14,7 +17,7 @@ public class CadastroRendimentosTest {
 
     @Test
     public void testCadastrarSalario(){
-        irpf.CadastrarSalario(5000f);
+        irpf.cadastrarSalario(5000f);
         assertEquals(5000f, irpf.getTotalSalario(), 0);
         //fail("not implemented yet");
     }
