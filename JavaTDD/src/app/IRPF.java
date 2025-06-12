@@ -8,7 +8,7 @@ public class IRPF {
     }
 
     public float getTotalSalario(){
-        return 5000;
+        return this.salario;
     }
 
 }
