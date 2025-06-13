@@ -28,5 +28,13 @@ public class CadastroDepententesTest {
         irpf.CadastrarDependente("Maria");
         assertEquals(2 * 189.59f, irpf.getDeducaoDependentes(), 0);
     }
+
+    @Test
+    public void testCadastrarTresDependente(){
+        irpf.CadastrarDependente("Joao");
+        irpf.CadastrarDependente("Maria");
+        irpf.CadastrarDependente("Jose");
+        assertEquals(3 * 189.59f, irpf.getDeducaoDependentes(), 0);
+    }
     
 }
