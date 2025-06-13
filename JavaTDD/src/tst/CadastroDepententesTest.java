@@ -17,8 +17,9 @@ public class CadastroDepententesTest {
     }
 
     @Test
-    public void test(){
-        fail("not yet implemented");
+    public void testCadastrarUmDependente(){
+        irpf.CadastrarDependente("Joao");
+        assertEquals(189.99f, irpf.getDeducaoDependentes(), 0);
     }
     
 }
