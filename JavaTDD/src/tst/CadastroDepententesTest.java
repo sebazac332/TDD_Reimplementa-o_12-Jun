@@ -19,7 +19,7 @@ public class CadastroDepententesTest {
     @Test
     public void testCadastrarUmDependente(){
         irpf.CadastrarDependente("Joao");
-        assertEquals(189.99f, irpf.getDeducaoDependentes(), 0);
+        assertEquals(189.59f, irpf.getDeducaoDependentes(), 0);
     }
     
 }
