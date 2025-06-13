@@ -39,6 +39,8 @@ public class IRPF {
     public float getDeducaoDependentes(){
         if(dependentes.length == 1){
             return 189.59f;
+        }else if (dependentes.length > 1) {
+            return 379.18f;
         }else{
             return 0f;
         }
