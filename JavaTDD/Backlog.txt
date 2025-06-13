@@ -1,6 +1,6 @@
 - Cadastrar deducoes
     OK Previdencia oficial
-    - Dependentes
+    OK Dependentes
     - Pensao alimenticia
     - Outras deducoes
 

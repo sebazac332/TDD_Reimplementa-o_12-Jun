@@ -23,18 +23,27 @@ public class CadastroDepententesTest {
     }
 
     @Test
-    public void testCadastrarDoisDependente(){
+    public void testCadastrarDoisDependentes(){
         irpf.CadastrarDependente("Joao");
         irpf.CadastrarDependente("Maria");
         assertEquals(2 * 189.59f, irpf.getDeducaoDependentes(), 0);
     }
 
     @Test
-    public void testCadastrarTresDependente(){
+    public void testCadastrarTresDependentes(){
         irpf.CadastrarDependente("Joao");
         irpf.CadastrarDependente("Maria");
         irpf.CadastrarDependente("Jose");
         assertEquals(3 * 189.59f, irpf.getDeducaoDependentes(), 0);
     }
     
+    @Test
+    public void testCadastrarCincoDependentes(){
+        irpf.CadastrarDependente("Joao");
+        irpf.CadastrarDependente("Maria");
+        irpf.CadastrarDependente("Jose");
+        irpf.CadastrarDependente("Maria Jose");
+        irpf.CadastrarDependente("Jose Maria");
+        assertEquals(5 * 189.59f, irpf.getDeducaoDependentes(), 0);
+    }
 }
